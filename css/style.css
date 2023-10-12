@@ -1,0 +1,444 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: black;
+		font-family: 'Lato', sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.cof_banner{
+  background-image: url('../img/background.jpg');
+  background-position-y: -93px;
+  background-position-x: -13px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.cof_header{
+	display: flex;justify-content: space-between;padding-top: 10px;
+	width: 95%;
+    margin: 0 auto;
+    align-items: center;
+	}
+.cof_header .menus ul li{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-family: 'Rubik', sans-serif;
+	    padding-right: 60px;
+}	
+.cof_bancontent{
+	    width: 95%;
+    margin: 110px auto 0;
+}
+.heading{
+	    font-family: cursive;
+    font-size: 90px;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+.head_tag{
+	    color: red;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.para{
+	    width: 40%;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cof_btn{
+
+       background: #ff4a00;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 35px;
+    border-radius: 15px;
+
+}
+.cof_logotxt{
+	    color: white;
+    padding-left: 10px;
+    font-size: 25px;
+    font-style: italic;
+    padding-right: 30px;
+}
+.logo_sec{
+	display: flex;
+    align-items: center;
+}
+.cof_darkblog{
+	width: 95%;
+    margin: 0 auto;
+
+}
+.cof_darkcoffee{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+
+}
+.cof_container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  
+}
+.btn_marg{
+  margin: 40px 0px;
+}
+.cof_darkcontent{
+  position: absolute;width: 55%;top: 180px;right: 80px;
+}
+.cof_darkcontent p{
+  color: white;text-align: right;line-height: 40px;
+}
+.cof_cupimg{
+  left:431px;position: absolute;top: 160px;
+}
+.cof_coolpara{
+  color: white;text-align: left;line-height: 40px;
+}
+.cof_darkbackgroud{
+  width: 724px;
+  height: 820px;
+  background: white;
+  position: relative;
+}
+.cof_darkbackgroud2{
+  width: 724px;
+  height: 820px;
+  background: #122341;
+  position: relative;
+}
+.txt_size90{
+ font-size: 90px;
+     font-style: italic;
+}
+.cof_cont1{
+  
+  position: absolute;top: 190px;left: 70px;
+}
+.cof_coolbackgroud{
+  width: 724px;
+  height: 820px;
+  background: #122341;
+  position: relative;
+}
+.cof_coolbackgroud2{
+  width: 724px;
+  height: 820px;
+  background: white;
+  position: relative;
+}
+.cof_container1{
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+}
+.cof_abtmain{
+ width: 95%;
+    margin: 0 auto;
+    background: #f6f6f4;
+    height: 665px;
+}
+.cof_heading{
+  text-align: center;font-size: 50px;padding-top: 20px;
+}
+.cof_abtpara1{
+  text-align: center;width: 90%;margin: 0 auto;padding-top: 40px;font-size: 20px;line-height: 30px;
+}
+.cof_abtpara2{
+  text-align: center;width: 90%;margin: 0 auto;padding-top: 70px;font-size: 20px;line-height: 30px;
+}
+.cof_rev{
+  width: 95%;
+    margin: 0 auto;
+    background: #000b2c;
+    height: 785px;
+    display: flex;
+    justify-content: space-between;
+}
+.cof_revimg img{
+  width: 634px;height: 720px;padding: 30px;
+}
+.txt_white{
+  color: white;
+}
+.cof_revcontent{
+  padding: 120px 0px;
+}
+.cof_revname{
+  font-size: 45px;text-align: center;
+}
+.cof_openday{
+  font-size: 50px;text-align: center;padding-top: 45px;
+}
+.cof_opentime{
+  font-size: 45px;text-align: center;padding-top: 30px;
+}
+.cof_revpara{
+  width: 80%;text-align: center;margin: 0 auto;padding-top: 20px;line-height: 30px;
+}
+.cof_openbox{
+ width: 840;width: 840px;height: 260px;background: #233e6a;margin: o auto;margin: 0 auto;
+     box-shadow: 4px 8px 12px 0px #888484;
+}
+.cof_branch{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+      padding-bottom: 170px;
+}
+.branch_box{
+  background: #233e6a;
+  width: 375px;
+  height: 580px;
+  position: relative;
+   box-shadow: 4px 8px 12px 0px #888484;
+
+}
+.branch_content{
+  width: 325px;
+  height: 215px;
+  background: #000b2c;
+  margin: 100px auto
+}
+.branch_content p{
+  padding: 35px;
+    text-align: center;
+    line-height: 25px;
+}
+.cof_footer{
+  width: 100%;
+  height: 584px;
+  background: #122441;
+}
+.cof_fomain{
+   width: 95%;
+  margin: 0 auto;
+      display: flex;
+      height: 584px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cof_focontents{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.fo_coffecup{
+      font-size: 30px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.fo_info{
+      padding-top: 50px;
+    font-size: 20px;
+}
+.fo_info li{
+      padding-bottom: 10px;
+}
+.fo_menu{
+  display: flex;list-style-type: none;
+  color: white;
+}
+.fo_menu li{
+         padding-right: 80px;
+    font-size: 20px;
+}
+.fa_style{
+  color: white;
+      padding-right: 30px;font-size: 25px;
+
+}
+.cof_gift{
+     height: 600px;
+    border: 10px solid;
+}
+.cof_giftmain{
+   width: 95%;
+  margin: 0 auto;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fo_bottom{
+  display: flex;flex-direction: row;justify-content: space-between;padding-bottom: 20px;
+}
+.cof_container2{
+  padding-top: 20px;padding-bottom: 20px;
+}
+.cof_giftb1{
+  position: relative;padding-left: 40px;
+}
+.gift_free{
+position: absolute;top: 200px;font-size: 120px;left: 92px;font-weight: 200;
+}
+.gift_logo{
+  position: absolute;top: 115px;left: 230px;width: 50px;
+}
+.gift_leaf{
+  position: absolute;bottom: 0;left: 417px;
+}
+.gift_head{
+  font-size: 60px;padding-bottom: 25px;
+}
+.gift_btn{
+  margin-top: 30px;padding: 10px  45px;border-radius: 10px;font-size: 40px;font-weight: bold;border: 4px solid #df4b0f;background: #f2b59c;
+}
+.gift_para{
+  padding-top: 45px;width: 70%;text-align: center;line-height: 30px;
+}
+.branch_btn{
+  padding: 5px 20px;font-size: 30px;border-radius: 10px;border: none;background: #ff4a00;color: white;border-top-left-radius: 69px;border-bottom-right-radius: 70px;}
+
+  .box{
+    position: absolute;top: 313px;left: 23px;
+  }
+
+ .cof_gift_content{
+  width: 40%;
+ } 
+
+
+  @media  (max-width: 765px) {
+    body{
+      background-color: #fff;
+    }
+    .cof_header{
+          display: none;
+    }
+    .cof_bancontent{
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+    .para{
+      width: 100%;
+    }
+    .cof_banner{
+      background-position: -156px 0px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .cof_darkbackgroud{
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: static;
+    }
+    .cof_container{
+      display: block;
+      width: 95%;
+    }
+    .cof_darkbackgroud2{
+      width: 100%;
+      height: 100%;
+      position: static;
+    }
+    .cof_cupimg{
+         display: none;
+    }
+    .cof_coolbackgroud,.cof_coolbackgroud2{
+      width: 100%;
+      height: 100%;
+      position: static;
+    }
+     .cof_darkcontent,.cof_darkcontent{
+      width: 100%;
+      position: static;
+      left: 0;
+      right: 0;
+     }
+     .cof_cont1{
+      position: static;
+      text-align: center;
+     }
+     .cof_darkcontent p{
+      text-align: left;
+      padding: 8px;
+     }
+     .cool_block{
+      display: flex;
+      flex-direction: column-reverse;
+     }
+     .cof_giftmain{
+      flex-direction: column;
+     }
+     .cof_gift_content{
+      width: 80%;
+     }
+     .cof_gift{
+      height: 100%;
+     }
+     .gift_para{
+        width: 100%;
+       
+     }
+     .gift_free{
+      top: 137px;
+      font-size: 54px;
+      left: 122px;
+      font-weight: 200;
+      z-index: 4;
+     }
+     .gift_head{
+      text-align: center;
+     }
+     .gift_round_shape{
+      width: 90%;
+     }
+     .gift_logo{
+      position: absolute;
+      top: 42px;
+      left: 161px;
+      width: 50px;
+     }
+     .gift_leaf{    position: absolute;
+      top: 143px;
+     left: 161px;
+     width: 50%;
+     }
+     .cof_abtmain{
+      height: 100%;
+     }
+     .cof_rev{
+      display: block;
+      height: 100%;
+     }
+     .cof_rev img{
+      width: 100%;
+      height: 400px;
+      padding: 0px;
+     }
+     .cof_openbox{
+      width: 95%;
+      height: 100%;
+     }
+     .cof_branch{
+      display: block;
+     }
+     .cof_footer{
+      height: 100%;
+     }
+     .cof_fomain{
+      height: 100%;
+     }
+     .cof_focontents{
+      flex-direction: column;
+     }
+     .fo_info{
+      padding: 20px 0px;
+     }
+  }
