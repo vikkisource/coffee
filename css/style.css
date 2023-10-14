@@ -17,6 +17,7 @@ a{
   background-image: url('../img/background.jpg');
   background-position-y: -93px;
   background-position-x: -13px;
+  background-size: cover;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -104,19 +105,22 @@ a{
   color: white;text-align: right;line-height: 40px;
 }
 .cof_cupimg{
-  left:431px;position: absolute;top: 160px;
+  left: 50%;
+  position: absolute;
+  top: 160px;
+  transform: translateX(-50%);
 }
 .cof_coolpara{
   color: white;text-align: left;line-height: 40px;
 }
 .cof_darkbackgroud{
-  width: 724px;
+  width: 50%;
   height: 820px;
   background: white;
   position: relative;
 }
 .cof_darkbackgroud2{
-  width: 724px;
+  width: 50%;
   height: 820px;
   background: #122341;
   position: relative;
@@ -130,13 +134,13 @@ a{
   position: absolute;top: 190px;left: 70px;
 }
 .cof_coolbackgroud{
-  width: 724px;
+  width: 50%;
   height: 820px;
   background: #122341;
   position: relative;
 }
 .cof_coolbackgroud2{
-  width: 724px;
+  width: 50%;
   height: 820px;
   background: white;
   position: relative;
